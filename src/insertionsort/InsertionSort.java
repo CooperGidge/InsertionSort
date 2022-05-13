@@ -51,7 +51,7 @@ public class InsertionSort {
         printArr(arr);
         
         // Display how long it took to sort the array
-        System.out.println("\nIt took " + time + " milliseconds to sort the array using insertion sort.");
+        System.out.println("\nIt took " + time + " milliseconds (" + ((double) time/1000) + " seconds) to sort the array using insertion sort.");
     }
     
     /**
